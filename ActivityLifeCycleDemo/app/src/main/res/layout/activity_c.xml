@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BF360C">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dip">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingBottom="16dip"
+            android:text="@string/activity_c_label"
+            android:textColor="#FFCCBC"
+            android:textSize="@dimen/font_large" />
+
+        <!-- Thread Counter badge at top -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Thread Counter +10 on create"
+            android:textColor="#FFCCBC"
+            android:textStyle="italic"
+            android:textSize="@dimen/font_medium" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btn_start_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="startActivityA"
+                android:text="@string/btn_start_a_label" />
+
+            <Button
+                android:id="@+id/btn_finish_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/btn_start_a"
+                android:onClick="finishActivityC"
+                android:text="@string/btn_finish_c_label" />
+
+            <Button
+                android:id="@+id/btn_start_dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/btn_finish_c"
+                android:onClick="startDialog"
+                android:text="@string/btn_start_dialog_label" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lifecycle_method_list"
+            android:textColor="#FFCCBC"
+            android:textSize="@dimen/font_medium" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+            <TextView
+                android:id="@+id/status_view_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="4dip"
+                android:textColor="@color/black"
+                android:typeface="monospace" />
+        </ScrollView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_status"
+            android:textColor="#FFCCBC"
+            android:textSize="@dimen/font_medium" />
+
+        <TextView
+            android:id="@+id/status_view_all_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="4dip"
+            android:textColor="@color/black"
+            android:typeface="monospace" />
+
+        <!-- onPause Counter -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="4dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pause_count"
+                android:textColor="#FFCCBC"
+                android:textSize="@dimen/font_medium" />
+            <TextView
+                android:id="@+id/pause_counter_view_c"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="4dip"
+                android:text="0"
+                android:textColor="@color/black"
+                android:typeface="monospace" />
+        </LinearLayout>
+
+        <!-- onDestroy Counter -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="4dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/destroy_count"
+                android:textColor="#FFCCBC"
+                android:textSize="@dimen/font_medium" />
+            <TextView
+                android:id="@+id/destroy_counter_view_c"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="4dip"
+                android:text="0"
+                android:textColor="@color/black"
+                android:typeface="monospace" />
+        </LinearLayout>
+
+        <!-- Thread Counter -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="4dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/thread_count"
+                android:textColor="#FFCCBC"
+                android:textSize="@dimen/font_medium" />
+            <TextView
+                android:id="@+id/thread_counter_view_c"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="4dip"
+                android:text="0"
+                android:textColor="@color/black"
+                android:typeface="monospace" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
