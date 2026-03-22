@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#264D7A</color>
+    <color name="colorPrimaryDark">#152D4A</color>
+    <color name="colorAccent">#F4A261</color>
+    <color name="backgroundColor">#1E3A5F</color>
+    <color name="colorUrlButton">#F4A261</color>
+    <color name="colorRingButton">#E63946</color>
+    <color name="colorCloseButton">#0D1B2A</color>
+    <color name="sectionLabelColor">#A8C7E8</color>
+    <color name="textFieldBackground">#2E527A</color>
+</resources>
