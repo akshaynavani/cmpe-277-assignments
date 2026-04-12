@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- M3 dark green palette (seed #52B788) -->
+    <color name="md3_primary">#70D9A4</color>
+    <color name="md3_onPrimary">#00391F</color>
+    <color name="md3_primaryContainer">#005236</color>
+    <color name="md3_onPrimaryContainer">#8CF6BF</color>
+    <color name="md3_secondary">#B3CCBC</color>
+    <color name="md3_onSecondary">#1F352A</color>
+    <color name="md3_secondaryContainer">#354B3E</color>
+    <color name="md3_onSecondaryContainer">#CFE9D8</color>
+    <color name="md3_tertiary">#A0CFDF</color>
+    <color name="md3_onTertiary">#003544</color>
+    <color name="md3_tertiaryContainer">#174C5C</color>
+    <color name="md3_onTertiaryContainer">#BCEBFB</color>
+    <color name="md3_background">#191C1A</color>
+    <color name="md3_onBackground">#E1E3DF</color>
+    <color name="md3_surface">#191C1A</color>
+    <color name="md3_onSurface">#E1E3DF</color>
+    <color name="md3_surfaceVariant">#404943</color>
+    <color name="md3_onSurfaceVariant">#BFC9C2</color>
+    <color name="md3_outline">#8A9490</color>
+    <color name="md3_error">#FFB4AB</color>
+    <color name="md3_onError">#690005</color>
+
+    <!-- Status state colors — used in code to tint statusText + card stroke -->
+    <color name="colorStatusReady">#BFC9C2</color>
+    <color name="colorStatusHandNear">#70D9A4</color>
+    <color name="colorStatusClap">#FFB86C</color>
+</resources>
