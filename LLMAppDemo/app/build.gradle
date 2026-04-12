@@ -1,0 +1,49 @@
+import java.util.Properties
+
+apply plugin: 'com.android.application'
+
+// Load API key from local.properties
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader -> localProperties.load(reader) }
+}
+
+android {
+    compileSdkVersion 33
+    namespace 'com.example.android.llmappdemo'
+
+    defaultConfig {
+        applicationId "com.example.android.llmappdemo"
+        minSdkVersion 21
+        targetSdkVersion 33
+        versionCode 1
+        versionName "1.0"
+        buildConfigField "String", "GROQ_API_KEY",
+                "\"${localProperties.getProperty('groq.api.key', '')}\""
+        buildConfigField "String", "GEMINI_API_KEY",
+                "\"${localProperties.getProperty('gemini.api.key', '')}\""
+    }
+
+    buildFeatures {
+        buildConfig true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.android.material:material:1.9.0'
+}

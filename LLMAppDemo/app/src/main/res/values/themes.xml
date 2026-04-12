@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.LLMAppDemo" parent="Theme.Material3.Light.NoActionBar" />
+
+    <style name="ShapeAppearance.LLMApp.Card" parent="">
+        <item name="cornerSize">16dp</item>
+    </style>
+</resources>
