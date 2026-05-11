@@ -51,44 +51,6 @@ Three tabs powered by the Study Agent:
 
 ---
 
-## Screenshots
-
-### Onboarding
-![Onboarding](screenshots/onboarding.png)
-
-### Home Dashboard
-![Home](screenshots/home.png)
-
-### Mock Interview — Config
-![Interview Config](screenshots/interview_config.png)
-
-### Mock Interview — Active Session
-![Interview Active](screenshots/interview_active.png)
-
-### Mock Interview — Summary
-![Interview Response Summary](screenshots/interview_summary.png)
-
-![Interview Session Summary](screenshots/interview_summary_2.png)
-
-### Study — Ask
-![Study Ask](screenshots/study_ask.png)
-
-### Study — Generate Flashcards
-![Study Generate](screenshots/study_generate.png)
-
-### Flashcards — Review
-![Daily Flashcards](screenshots/flashcards.png)
-
-![All Flashcards](screenshots/flashcards_2.png)
-
-### Study — Daily FAQs
-![Daily FAQs](screenshots/daily_faqs.png)
-
-### Progress
-![Progress](screenshots/progress.png)
-
----
-
 ## AI Agents
 
 ### 1. Context Builder Agent
@@ -134,6 +96,58 @@ Saved to DailyFaqEntity -> push notification sent
        |
 Study screen -> Daily FAQs tab -> expand -> save as flashcard
 ```
+
+---
+
+## Screenshots
+
+### Onboarding
+<img src="screenshots/onboarding.png" width="300">
+<!-- ![Onboarding](screenshots/onboarding.png) -->
+
+
+### Home Dashboard
+<img src="screenshots/home.png" width="300">
+<!-- ![Home](screenshots/home.png) -->
+
+### Mock Interview — Config
+<img src="screenshots/interview_config.png" width="300">
+
+<!-- ![Interview Config](screenshots/interview_config.png) -->
+
+### Mock Interview — Active Session
+<img src="screenshots/interview_active.png" width="300">
+<!-- ![Interview Active](screenshots/interview_active.png) -->
+
+### Mock Interview — Summary
+<img src="screenshots/interview_summary.png" width="300">
+<!-- ![Interview Response Summary](screenshots/interview_summary.png) -->
+
+<img src="screenshots/interview_summary_2.png" width="300">
+<!-- ![Interview Session Summary](screenshots/interview_summary_2.png) -->
+
+### Study — Ask
+<img src="screenshots/study_ask.png" width="300">
+<!-- ![Study Ask](screenshots/study_ask.png) -->
+
+### Study — Generate Flashcards
+<img src="screenshots/study_generate.png" width="300">
+<!-- ![Study Generate](screenshots/study_generate.png) -->
+
+### Flashcards — Review
+<img src="screenshots/flashcards.png" width="300">
+<!-- ![Daily Flashcards](screenshots/flashcards.png) -->
+
+<img src="screenshots/flashcards_2.png" width="300">
+<!-- ![All Flashcards](screenshots/flashcards_2.png) -->
+
+### Study — Daily FAQs
+<img src="screenshots/daily_faqs.png" width="300">
+<!-- ![Daily FAQs](screenshots/daily_faqs.png) -->
+
+### Progress
+<img src="screenshots/progress.png" width="300">
+<!-- ![Progress](screenshots/progress.png) -->
 
 ---
 
